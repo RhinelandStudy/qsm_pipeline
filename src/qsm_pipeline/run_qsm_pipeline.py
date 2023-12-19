@@ -23,7 +23,7 @@ import glob
 from itertools import chain
 from nipype import config, logging
 
-from .QsmEpiPorcessing import create_qsmepiwf
+from .QsmEpiProcessing import create_qsmepiwf
 
 import matplotlib
 matplotlib.use('Agg')
